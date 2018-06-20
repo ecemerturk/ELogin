@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
@@ -14,12 +14,7 @@
             background-position: center, center;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-size: cover;
-        }
-        .kutu{
-            color:darkgray;
-            border-color: aliceblue;
-            background-color: azure;
+            background-size: auto;
         }
     </style>
 
@@ -29,30 +24,38 @@
         <br />
     </p>
     <p>
-        &nbsp;</p>
+        &nbsp;
+    </p>
     <p>
-        &nbsp;</p>
+        &nbsp;
+    </p>
     <script src="js/bootstrap.min.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <div class="modal-dialog">
         <div class=" modal-content align-content-around">
             <form class=" form-control form">
-                <div class="form-group text-center"><strong>Giriş Sayfası</strong></div>
+                <div class="form-group">
+                    <div class="input-group text-center">
+                        <strong>Giriş Sayfası
+                        </strong>
+                    </div>
+                </div>
+
                 <div class="form-group">
                     <div class=" input-group">
                         <input type="text" class="form-control" placeholder="Email" required="" autofocus="" />
-                        <span class="kutu" aria-hidden="true"><i class=" fa fa-user"></i></span>
+                        <span class=" input-group-text" aria-hidden="true"><i class=" fa fa-user"></i></span>
                     </div>
                 </div>
                 <div class="form-group">
                     <div class="input-group">
                         <input type="password" class="form-control" placeholder="Şifre" required="" autofocus="" />
-                        <span class="kutu"><i class=" fa fa-lock"></i></span>
+                        <span class="input-group-text"><i class=" fa fa-lock"></i></span>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="custom-checkbox">
-                        <input type="checkbox" value="" />Beni Hatırla
+                        <input type="checkbox" value="" /> Beni Hatırla
                     </label>
                 </div>
                 <div class=" form-group">
