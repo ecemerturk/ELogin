@@ -9,7 +9,10 @@
     <style>
         body {
             background-image: url("foto/foto.jpg");
+            background-position: center, center;
             background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: auto;
         }
         
     </style>

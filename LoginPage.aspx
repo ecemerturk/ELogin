@@ -17,7 +17,6 @@
             background-size: auto;
         }
     </style>
-
 </head>
 <body>
     <p>
@@ -32,30 +31,34 @@
     <script src="js/bootstrap.min.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <div class="modal-dialog">
-        <div class=" modal-content align-content-around">
-            <form class=" form-control form">
+        <div class=" modal-content">
+            <form class=" form-control">
                 <div class="form-group">
-                    <div class="input-group text-center">
+                    <div class="input-group">
                         <strong>Giriş Sayfası
                         </strong>
                     </div>
                 </div>
-
                 <div class="form-group">
-                    <div class=" input-group">
+                    <div class="input-group mb-3">
                         <input type="text" class="form-control" placeholder="Email" required="" autofocus="" />
-                        <span class=" input-group-text" aria-hidden="true"><i class=" fa fa-user"></i></span>
+                        <div class="input-group-append">
+                            <span class="input-group-text " aria-hidden="true"><i class="fa fa-user"></i></span>
+                        </div>
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="input-group">
+                    <div class="input-group mb-3">
                         <input type="password" class="form-control" placeholder="Şifre" required="" autofocus="" />
-                        <span class="input-group-text"><i class=" fa fa-lock"></i></span>
+                        <div class=" input-group-append">
+                            <span class="input-group-text" aria-hidden="true"><i class="fa fa-lock"></i></span>
+                        </div>
                     </div>
                 </div>
                 <div class="form-group">
                     <label class="custom-checkbox">
-                        <input type="checkbox" value="" /> Beni Hatırla
+                        <input type="checkbox" value="" />
+                        Beni Hatırla
                     </label>
                 </div>
                 <div class=" form-group">
@@ -66,11 +69,8 @@
                 <div class="form-group">
                     <p class=" text-left"><a href="SifrePage.aspx">Şifreni mi unuttun?</a></p>
                 </div>
-
-
             </form>
         </div>
     </div>
-
 </body>
 </html>
