@@ -48,20 +48,14 @@
             </div>
             <div class="form-group">
                 <div class="input-group">
-                    <input type="password" class="form-control" placeholder="Şifre" required="" />
-                    <div class=" input-group-append">
-                        <span class="input-group-text" style="width: 40px"><i class=" oi  oi-person"></i></span>
-
-                <div class="form-group">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Email" required="" autofocus="" />
-                        <div class="input-group-append">
-                            <span class="input-group-text" style="width: 40px"><i class="oi oi-person"></i></span>
-                        </div>
-
+                    <input type="text" class="form-control" placeholder="Email" required="" autofocus="" />
+                    <div class="input-group-append">
+                        <span class="input-group-text" style="width: 40px"><i class="oi oi-person"></i></span>
                     </div>
+
                 </div>
             </div>
+
             <div class="form-group">
                 <div class="input-group">
                     <input type="password" class="form-control" placeholder="Şifre" required="" />
@@ -77,10 +71,10 @@
                
                 </label>
             </div>
-            <div style="color:white" class="form-group">
+            <div style="color: white" class="form-group">
                 <button class="btn btn-lg btn-primary btn-block" type="button" onclick="location.href='GirisPage.aspx';">
                     Giriş</button>
-                <p class=" text-left"><a style="color:white" href="SifrePage.aspx">Şifreni mi unuttun?</a></p>
+                <p class=" text-left"><a style="color: white" href="SifrePage.aspx">Şifreni mi unuttun?</a></p>
             </div>
         </div>
     </div>
