@@ -44,12 +44,21 @@
                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>GİRİŞ SAYFASI</strong>
                     </div>
                 </div>
+
             </div>
             <div class="form-group">
                 <div class="input-group">
                     <input type="password" class="form-control" placeholder="Şifre" required="" />
                     <div class=" input-group-append">
                         <span class="input-group-text" style="width: 40px"><i class=" oi  oi-person"></i></span>
+
+                <div class="form-group">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Email" required="" autofocus="" />
+                        <div class="input-group-append">
+                            <span class="input-group-text" style="width: 40px"><i class="oi oi-person"></i></span>
+                        </div>
+
                     </div>
                 </div>
             </div>
